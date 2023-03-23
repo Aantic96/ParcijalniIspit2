@@ -1,0 +1,31 @@
+/*Rješenje za smještaj elemenata s lijeve i desne strane uz minimalnu estetsku doradu*/
+
+* {
+    box-sizing: border-box;
+  } 
+
+.flex-container {
+    display: flex;
+}
+
+#form {
+    justify-content: left;
+    margin-left: 3em;
+}
+
+#table {
+    display:inline-block;
+    justify-content: right;
+    margin: auto;
+    margin-right: 45em;
+    padding-left: 2em;
+}
+
+table, tr, th, td {
+    border: solid black 1px;
+    text-align: center;
+}
+
+tr, th, td {
+    padding: 8px
+}
